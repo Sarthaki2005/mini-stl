@@ -13,3 +13,13 @@ target_include_directories(
     vector_example
     PRIVATE include
 )
+
+add_executable(
+hashmap_example
+examples/hashmap_example.cpp
+)
+
+target_include_directories(
+hashmap_example
+PRIVATE include
+)
